@@ -12,9 +12,6 @@ pipeline {
 		sh "echo $CC"
 		
             }
-            steps {
-                echo $CC
-            }
         }
     }
 }
